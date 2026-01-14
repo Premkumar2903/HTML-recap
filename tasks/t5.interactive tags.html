@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Tags</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Interview Application Form</h1>
+
+        <label for="name" >Name:</label>
+        <input type="text" id ="name"><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="contact">Contact:</label>
+        <input type="tel" pattern="[0-9]{10}" maxlength="10"><br><br>
+
+        <label>Role Applied</label>
+
+        <input type="radio"  name="skills" value="Mern">
+        <label for="Mern">Mern</label>
+
+        <input type="radio"  name="skills" value="Java">Java
+        <label for="Java" ></label>
+
+        <input type="radio"  name="skills" value="Python">Python
+        <label for="Python" ></label>
+
+        <input type="radio" name="skills" value="Dot net">Dot net
+        <label for="Dot net" ></label>
+        <br><br>
+
+        <label>Resume:</label>
+        <input type="file"><br><br>
+
+        <label>Salary Expectation:</label>
+        <input type="tel"><br><br>
+        
+        <label>Interview Avaliable Date: </label>
+        <input type="date"><br><br>
+
+        <input type="submit">
+        
+    </form>
+</body>
+</html>
